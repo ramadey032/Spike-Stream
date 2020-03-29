@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import GoogleAuth from '../GoogleAuth';
-import './header.css';
+import './Header.css';
 
 const Header = () => {
     return (
         <div className="todo-header">
             <div className="logo-box logo-animated">
                 <Link to="/">
-                    <img src="/assets/todo-logo.png" className="todo-logo" />
+                    <img src="/assets/todo-logo.png" alt="logo" className="todo-logo" />
                 </Link>
             </div>
             <div className="right menu">

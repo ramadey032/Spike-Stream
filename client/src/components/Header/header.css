@@ -67,6 +67,6 @@ body {
   left: 86%;
   padding: 10px;
 
-  animation: moveFromBottom 2s ease-out 1s;
+  animation: moveFromBottom 2s ease-out;
   animation-fill-mode: backwards;
 }
